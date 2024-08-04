@@ -94,7 +94,7 @@ useEffect(()=>{
          <input  
          className='plant-input'
           type= "text" 
-          placeholder='Enter Plant description'
+          placeholder='Enter watch description'
           value={description}
           onChange={(e)=>setDescription(e.target.value)}
           />
