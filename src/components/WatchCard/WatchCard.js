@@ -17,10 +17,10 @@ function Watchcard({_id,name,company,image,price,description,Loadwatches}) {
 
 
   return (
-    <div className="plant-card">
-        <h1 className="plant-title">{name} </h1>
-        <img src={image} className="plant-img" alt="watch-img"/>
-        <p className="plant-price">price:{price}</p>
+    <div className="card">
+        <h1 className="title">{name} </h1>
+        <img src={image} className="img" alt="watch-img"/>
+        <p className="price">price:{price}</p>
          <p>{description}</p>
          <p> company:  {company}</p>
          <div>
