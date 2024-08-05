@@ -12,7 +12,7 @@ function Home() {
 
 
     const Loadwatches =  async ()=>{
-        const response = await axios.get(`https://watch-server49.onrender.com/watches`)
+        const response = await axios.get(`${process.env.React_APP_API_URL}/watches`)
         setwatches(response.data.data) 
       }
 
